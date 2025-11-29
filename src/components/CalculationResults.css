@@ -1,0 +1,76 @@
+.results-container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-container h2 {
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.vessel-info {
+  background-color: #f0f9ff;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #3b82f6;
+}
+
+.vessel-info h3 {
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.vessel-info p {
+  color: #4b5563;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.result-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #bfdbfe;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.result-card h4 {
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.result-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.results-note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fef3c7;
+  border-radius: 4px;
+  border-left: 4px solid #f59e0b;
+}
+
+.results-note p {
+  color: #92400e;
+  font-size: 0.9rem;
+}
