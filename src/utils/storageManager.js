@@ -147,7 +147,7 @@ export const downloadCSV = async () => {
     return;
   }
   
-  const filename = `maria_leader.csv`;
+ const filename = `maria_leader_${new Date().toISOString().split('T')[0]}.csv`;
   
   // Use Electron save dialog if available
   if (isElectron()) {
